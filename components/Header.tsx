@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import Link from 'next/link';
 import React from 'react';
 import {
@@ -14,7 +14,7 @@ function Header() {
         <Link href="/">
           <div className="relative h-10 w-5 cursor-pointer opacity-75 transition hover:opacity-100">
             <Image
-              src="vercel.svg"
+              src="/vercel.svg"
               layout="fill"
               objectFit="contain"
               alt={'logo'}
